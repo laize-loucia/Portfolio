@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de développeur.">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Portfolio Laizé Loucia</title>
+</head>
+<body>
+  <div class="background"></div>
+
+  
+  <nav class="navbar">
+    <span class="name" id="toggleBio"> LL</span>
+    <ul>
+      <li><a href="#about" id="nav-about">À mon sujet</a></li>
+      <li><a href="#projects" id="nav-works">Projets</a></li>
+      <li><a href="#skills" id="nav-skills">Compétences</a></li>
+      <li><a href="#contact" id="nav-contact">Contact</a></li>
+    </ul>
+  
+    <div id="bio" class="bio-presentation">
+      <div class="presentation">
+        <p>
+          Bonjour ! Je suis Loucia, passionnée d’<strong>informatique</strong>,
+          et de <strong>langues étrangères</strong>.
+          <br><br>
+          J’étudie actuellement en <strong>3ème année de BUT MMI</strong> à Bobigny
+          en <strong>spécialité développement web et dispositifs interactifs</strong>.
+        </p>
+      </div>
+    </div>
+  </nav> 
+  
+
+
+  <div class="main-content">
+    <section class="projects-section" id="projects">
+      <h2 class="section-title" data-aos="fade-up">Mes projets</h2>
+      <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-image-container">
+            <img src="img/projets/Oria_project.webp" alt="Agence ORIA" class="project-image">
+          </div>
+          <div class="project-labels">
+            <span class="label-tech">PHP</span>
+            <span class="label-tech">MySQL</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Agence ORIA</h3>
+            <p class="project-description">Site vitrine avec backoffice sur-mesure pour une agence de communication.</p>
+            <a href="oria.html" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image-container">
+            <img src="img/projets/ourcq_spot.png" alt="Ourcq Spot" class="project-image">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Ourcq Spot</h3>
+            <div class="project-labels">
+              <span class="label-tech">Jetpack compose</span>
+              <span class="label-tech">Java</span>
+            </div>
+            <p class="project-description">Application mobile pour le Grand Paris du canal de l'Ourcq.</p>
+            <a href="ourcq_spot.html" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image-container">
+            <img src="img/projets/mycustomlogo.png" alt="Vitefit" class="project-image">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Vitefit</h3>
+            <div class="project-labels">
+              <span class="label-tech">PHP</span>
+              <span class="label-tech">MySQL</span>
+            </div>
+            <p class="project-description">Plateforme de fitness en ligne avec gestion de contenu automatisée.</p>
+            <a href="vitefit.html" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image-container">
+            <img src="img/projets/Wikipedia_scrapping_project.webp" alt="Web Scraping" class="project-image">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Web Scraping Wikipédia</h3>
+            <div class="project-labels">
+              <span class="label-tech">Python</span>
+            </div>
+            <p class="project-description">Projet de web scraping de pages Wikipédia et de data-analyses sur la Blockchain.</p>
+            <a href="wikipedia_scraping.html" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image-container">
+            <img src="img/projets/stats.png" alt="Enquête Polyglottisme" class="project-image">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Enquête sur le Polyglottisme</h3>
+            <div class="project-labels">
+              <span class="label-tech">Jamovi</span>
+            </div>
+            <p class="project-description">Étude de statistiques menée sur les langues étrangères.</p>
+            <a href="statistics_project.html" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image-container">
+            <img src="img/projets/analysis_project.webp" alt="Analyse DAM" class="project-image">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Analyse du DAM</h3>
+            <div class="project-labels">
+              <span class="label-tech">Python</span>
+            </div>
+            <p class="project-description">Data-analyse menée sur le DAM d'Inria et les besoins utilisateurs.</p>
+            <a href="data_analyse_project.html" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <div class="about-photo" data-aos="zoom-in">
+          <img src="img/profile-picture.PNG" alt="Laizé Loucia">
+        </div>
+        <div class="about-bio" data-aos="fade-left">
+          <h2>Bonjour, je suis <mark  style="background: #00ced1">Laizé Loucia</mark></h2>
+          <p>
+
+
+            Je suis actuellement en 3ème année de BUT MMI, de développement web et dispositifs interactifs. 
+            Je suis passionnée de nouvelles technologies depuis longtemps et de langages étrangères et de nouvelles technologies depuis longtemps.
+            Petite, j’étais fascinée par le monde des services de renseignement des différents pays, et de leurs techniques de transmissions d’informations. Et, c’est naturellement après des études de langues et un master en gestion d’informations, que j’ai finalement décidé de faire un BUT MMI orienté informatique.
+            <br><br>
+            Forte de mes 3 années d'expériences en alternance en gestion de projets multimédia (chez <i>Inria, Institut National de Recherche en Informatique</i>) et web (chez <i>Renault</i>) en alternance, et mes stages passés (42, Médiathèque de Paris), je possède une double-compétence en gestion de projets et en informatique.
+            <br><br>
+            Mon projet est en effet, de me spécialiser en informatique, est de travailler dans ce coeur de métier en tant que full stack.
+
+          </p>
+          
+          <h3>Mes compétences principales:</h3>
+          <div class="skills-preview">
+            <div class="skills-track">
+              <div class="skills-card">Programmation<br><small>JS, PHP, Python, Java...</small></div>
+              <div class="skills-card">Gestion de projets<br><small>Scrum, Agile</small></div>
+              <div class="skills-card">Langues<br><small>Français, Anglais, Espagnol, Russe</small></div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section class="skills-section" id="skills">
+      <h2 class="section-title">
+        Mes compétences</span>
+      </h2>
+
+      <div class="skills-container">
+        <div class="skill-category-card">
+          <div class="category-header">
+            <i class="fas fa-code category-icon"></i>
+            <h3>Développement</h3>
+          </div>
+          
+          <div class="skill-group">
+            <h4>Front-end / mobile</h4>
+            <div class="skill-items">
+              <span class="skill-item"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</span>
+              <span class="skill-item"><i class="fab fa-js"></i> JavaScript</span>
+              <span class="skill-item"><i class="fas fa-mobile-alt"></i> Flutter</span>
+              <span class="skill-item"><i class="fab fa-android"></i> Kotlin</span>
+              <span class="skill-item"><i class="fas fa-feather-alt"></i> Dart</span>
+            </div>
+            
+            <h4>Back-end</h4>
+            <div class="skill-items">
+              <span class="skill-item"><i class="fab fa-php"></i> PHP</span>
+              <span class="skill-item"><i class="fab fa-python"></i> Python</span>
+              <span class="skill-item"><i class="fab fa-java"></i> Java</span>
+              <span class="skill-item"><i class="fas fa-code"></i> C#</span>
+              <span class="skill-item"><i class="fas fa-code"></i>Perl</span>
+              <span class="skill-item"><i class="fas fa-database"></i>SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="category-header">
+            <i class="fas fa-solid fa-desktop category-icon"></i>
+            <h3>Outils & Environnements</h3>
+          </div>
+          <div class="skill-group">
+            <h4>Environnements & IDE</h4>
+            <div class="skill-items">
+              <span class="skill-item"><i class="fab fa-android"></i> Android Studio</span>
+              <span class="skill-item"><i class="fab fa-linux"></i> Debian</span>
+              <span class="skill-item"><i class="fas fa-terminal"></i> Thonny</span>
+              <span class="skill-item"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+              <span class="skill-item"><i class="fab fa-docker"></i> Docker</span>
+            </div>
+            <h4>Bureautique</h4>
+            <div class="skill-items">
+              <span class="skill-item"><i class="fas fa-tasks"></i>Jira</span>
+              <span class="skill-item"><i class="fab fa-wordpress"></i> WordPress</span>
+              <span class="skill-item"><i class="fas fa-file"></i> Office 365</span>
+            </div>
+            <h4>Multimédia</h4>
+            <div class="skill-items">
+              <span class="skill-item"><i class="fa-tools"></i>DAM</span>
+              <span class="skill-item"><i class="fas fa-cube"></i>3DEXPERIENCE</span>
+              <span class="skill-item"><i class="fas fa-cube"></i> Unity</span>
+              <span class="skill-item"><i class="fa-laptop-code"></i> Figma</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="category-header">
+            <i class="fas fa-database category-icon"></i>
+            <h3>Données & Langues</h3>
+          </div>
+          
+          <div class="skill-group">
+            <h4>Gestion de données</h4>
+            <div class="skill-items">
+              <span class="skill-item"><i class="fas fa-database"></i> MySQL</span>
+              <span class="skill-item"><i class="fas fa-database"></i>ACCESS</span>
+              <span class="skill-item"><i class="fas fa-code"></i> JSON/XML/XSL, Xpath/RDFa</span>
+              <span class="skill-item"><i class="fas fa-code"></i> Jamovi</span>
+            </div>
+            
+            <h4>Langues</h4>
+            <div class="skill-items">
+              <span class="skill-item"><i class="fas fa-comment-dots"></i> Français</span>
+              <span class="skill-item"><i class="fas fa-comment-dots"></i> Anglais (avancé)</span>
+              <span class="skill-item"><i class="fas fa-comment-dots"></i> Espagnol (avancé)</span>
+              <span class="skill-item"><i class="fas fa-comment-dots"></i> Russe (intermédiaire)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/laizé-loucia" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:loucia.laize05@gmail.com" aria-label="email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="tel:+33612345678" aria-label="téléphone">
+          <i class="fas fa-phone"></i>
+        </a>
+      </div>
+      <p>&copy; 2025 Laizé Loucia. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

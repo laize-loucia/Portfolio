@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/prl1.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Projet ViteFit</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html#about" id="nav-about">À mon sujet</a></li>
+      <li><a href="index.html#projects" id="nav-works">Projets</a></li>
+      <li><a href="index.html#skills" id="nav-skills">Compétences</a></li>
+      <li><a href="index.html#contact" id="nav-contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <div class="container">
+    <div class="sidebar" data-aos="fade-right">
+      <h2 data-aos="fade-right"><strong>ViteFit</strong> - Application de réservation pour club sportif</h2>
+      <p data-aos="fade-up">
+    
+        J'ai développé ce site de réservation en ligne en CRUD <i>(Create-Read-Update-Delete)</i>.
+
+J'ai eu en tête cette idée de développement de club de sport pendant le COVID. J'aime beaucoup le sport et je n'ai pas pu en faire en salle, et j'étais sans informations de la part du club. <br><br>
+
+Les utilisateurs et membres peuvent se connecter et s’inscrire à des cours, et être prévenus par mail. Les administrateurs disposent d’une interface pour gérer créneaux, inscriptions, et utilisateurs. Le site est connecté à une base de données et le calendrier s’actualise en temps réel selon les inscrisciptions et se décrémente.
+
+        L'application permet :
+      </p>
+      <ul data-aos="fade-up">
+        <li>Inscription et connexion sécurisée des membres</li>
+        <li>Réservation simplifiée des cours par un calendrier interactif</li>
+        <li>Notifications de confirmation automatique par mail</li>
+        <li>Interface administrateur pour la gestion des cours, créneaux et des utilisateurs</li>
+        <li>Mise à jour en temps réel des cours disponible</li>
+      </ul>
+      <h3 data-aos="fade-up">Technologies utilisées</h3>
+      <div class="icons" data-aos="zoom-in">
+        <img src="img/icones/html.webp" alt="HTML5" title="HTML5">
+        <img src="img/icones/css.webp" alt="CSS3" title="CSS3">
+        <img src="img/icones/javascript.webp" alt="JavaScript" title="JavaScript">
+        <img src="img/icones/php.webp" alt="PHP" title="PHP">
+        <img src="img/icones/mysql.webp" alt="MySQL" title="MySQL">
+      </div>
+    </div>
+
+    <div class="content" data-aos="fade-left">
+      <div class="project-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="img/projets/vitefit_view.PNG" alt="Interface admin de ViteFit">
+          </div>
+          <div class="carousel-slide">
+            <img src="img/projets/Vitefit_inscription.jpeg" alt="Page d'inscription ViteFit">
+          </div>
+          <div class="carousel-slide">
+            <img src="img/projets/vitefit_calendar.jpeg" alt="*">
+          </div>
+        </div>
+        <button class="carousel-button prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="carousel-button next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="note" data-aos="fade-up">
+    <p><i class="fas fa-info-circle"></i> Le site rencontre actuellement des problèmes de latence de chargement et sera redéployé fin juillet sur <a href="https://www.alwaysdata.com/fr/" target="_blank">alwaysdata</a> en vu de meilleures performances.</p>
+  </div>
+
+  <hr>
+
+  <script src="js/projets.js"></script>
+
+</body>
+</html>

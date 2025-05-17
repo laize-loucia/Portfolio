@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/prl1.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Projet Ourcq Spot</title>
+ 
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html#about" id="nav-about">À mon sujet</a></li>
+      <li><a href="index.html#projects" id="nav-works">Projets</a></li>
+      <li><a href="index.html#skills" id="nav-skills">Compétences</a></li>
+      <li><a href="index.html#contact" id="nav-contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="sidebar" data-aos="fade-right">
+      <h2 data-aos="fade-up"><strong>Ourcq Spot</strong> — Application mobile</h2>
+
+      <p data-aos="fade-up">
+    
+        J'ai développé l'application mobile Ourcq Spot pour le Collectif l'Ourcq Grand Paris
+      
+        lors d'un projet final de BUT MMI <br><br>
+
+        Les utilisateurs peuvent accèder aux informations sur les lieux à visiter du Canal de l'Ourcq.
+         
+        Ils ont accès aux événements grâce au calendrier qui s’actualise en temps réel selon la base de données.
+      
+        <br><br>
+        fonctionnalités développées:
+      </p>
+      <ul data-aos="fade-up">
+        <li>Motion design intégré pour un booting personnalisée de l'application</li>
+        <li>Carte interactive avec géolocalisation</li>
+        <li>Mise à jour en temps réel des événements affichables sur le calendrier</li>
+        <li>Interface responsive sur smartphone et tablette</li>
+      </ul>
+      <h3 data-aos="fade-up">Technologies utilisées et outils</h3>
+      <div class="icons" data-aos="zoom-in">
+        <img src="img/icones/kotlin.webp" alt="kotlin">
+        <img src="img/icones/sql.webp" alt="android studio">
+        <img src="img/icones/java.webp" alt="java">
+        <img src="img/icones/android_studio.webp" alt="android studio">
+      </div>
+    </div>
+
+    <div class="content" data-aos="fade-left">
+      <div class="project-carousel">
+        <div class="carousel-container">
+
+          <div class="carousel-slide"><img src="img/projets/ourcq_spot_demo_1.webp" alt="Interface Ourcq Spot booting" /></div>
+          <div class="carousel-slide"><img src="img/projets/ourcq_spot_demo_2.webp" alt="Interface Ourcq Spot page 2" /></div>
+          <div class="carousel-slide"><img src="img/projets/ourcq_spot_mobile_app_booting.webp" alt="Interface Ourcq Spot booting screen" /></div>
+          <div class="carousel-slide"><img src="img/projets/ourcq_spot_demo_3.webp" alt="Interface Ourcq Spot feature" /></div>
+          <div class="carousel-slide"><iframe src="img/projets/demo_ourcq_spot.mp4" title="demo app"></iframe></div>
+        </div>
+        <button class="carousel-button prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="carousel-button next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+    </div>
+  </div>
+  <div class="project-info" data-aos="fade-up">
+    <div class="services_item">
+      <img src="img/icones/friends.webp" alt="Collaboration">
+      <p>Projet de groupes de BUT MMI, réalisé A à Z, avec des étudiants en UX/UI à <a href="https://iutb.univ-paris13.fr/liut/presentation-de-liut/" target="_blank">l'IUT de Bobigny</a>
+      (disponible sur <a href="https://github.com/Ourcq-Spot/OurcqSpot">GitHub</a>)</p>
+
+    </div>
+  </div>
+
+  </div>
+
+  <hr>
+
+  <script src="js/projets.js"></script>
+</body>
+</html>
+
